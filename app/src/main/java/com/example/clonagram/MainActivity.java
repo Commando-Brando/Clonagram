@@ -83,8 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 ParseUser currentUser = ParseUser.getCurrentUser();
                 savePost(description, currentUser, photoFile);
             }
-        });
-    }
+        });    }
 
     private void logout() {
         Intent i = new Intent(this, LoginActivity.class);
