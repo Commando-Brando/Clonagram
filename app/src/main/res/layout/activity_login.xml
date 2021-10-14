@@ -11,9 +11,9 @@
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/textView"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:hint="username"
@@ -29,7 +29,7 @@
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:hint="password"
-        android:inputType="textPersonName" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -44,7 +44,7 @@
         android:text="login" />
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnLogin"
@@ -53,4 +53,19 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
         android:text="sign up" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/bad_script"
+        android:text="Clonagram"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#8C9EFF"
+        android:textStyle="bold" />
+
 </RelativeLayout>
